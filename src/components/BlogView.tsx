@@ -36,7 +36,7 @@ export default function BlogView({ blogs }: BlogViewProps) {
           The Ministry Blog Spot
         </h2>
         <p className="font-body text-sm text-on-surface-variant mt-3 leading-relaxed">
-          Read theological insights, weekly devotionals, and official ministry notifications published directly by Evangelist Pradeep Shinde and his team.
+          Read theological insights, weekly devotionals, and official ministry notifications published directly by Bro Pradeep Shinde and his team.
         </p>
       </section>
 
