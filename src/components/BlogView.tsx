@@ -238,7 +238,7 @@ export default function BlogView({ blogs }: BlogViewProps) {
 
               <div className="flex gap-2">
                 <a 
-                  href={`https://wa.me/?text=${encodeURIComponent(`Check out this spiritual article "${activeBlog.title}" by Evangelist Pradeep Shinde Ministry: ${window.location.origin}`)}`}
+                  href={`https://wa.me/?text=${encodeURIComponent(`Check out this spiritual article "${activeBlog.title}" by Bro. Pradeep Shinde Ministry: ${window.location.origin}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold font-body px-4 py-2 rounded-lg flex items-center gap-1.5 transition-colors"
