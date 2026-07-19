@@ -37,7 +37,7 @@ export default function Header({ activeTab, onNavigate }: HeaderProps) {
               onClick={() => onNavigate('home')}
               className="font-headline text-lg md:text-xl font-bold text-on-surface tracking-tight cursor-pointer select-none hover:text-secondary transition-colors"
             >
-              Bro Pradeep Shinde
+              Bro. Pradeep Shinde
             </h1>
           </div>
 
