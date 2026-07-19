@@ -95,7 +95,7 @@ export default function SermonsView({ sermons, onPlaySermon, onNavigateToStudy }
           Sermon Library
         </h2>
         <p className="font-body text-base md:text-lg text-on-surface-variant max-w-2xl">
-          Explore our collection of teachings, biblical insights, and spiritual messages delivered by Evangelist Pradeep Shinde.
+          Explore our collection of teachings, biblical insights, and spiritual messages delivered by Bro Pradeep Shinde.
         </p>
       </section>
 
