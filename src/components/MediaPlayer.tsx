@@ -58,7 +58,7 @@ export default function MediaPlayer({ sermon, onClose }: MediaPlayerProps) {
               <span className="text-xs text-on-primary-container font-mono">{sermon.duration}</span>
             </div>
             <h4 className="text-sm font-semibold text-white line-clamp-1 mt-1">{sermon.title}</h4>
-            <p className="text-xs text-on-primary-container">Speaker: Bro {sermon.speaker}</p>
+            <p className="text-xs text-on-primary-container">Speaker: Bro. {sermon.speaker}</p>
           </div>
         </div>
 
