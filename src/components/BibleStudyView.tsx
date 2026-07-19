@@ -320,7 +320,7 @@ export default function BibleStudyView({ lessons }: BibleStudyViewProps) {
                 <span className="material-symbols-outlined text-2xl">volunteer_activism</span>
               </div>
               <h3 className="font-headline text-xl font-bold text-on-surface">Secure Partnership Gift</h3>
-              <p className="font-body text-xs text-on-surface-variant mt-1">Sustain the Ministry of Evangelist Pradeep Shinde</p>
+              <p className="font-body text-xs text-on-surface-variant mt-1">Sustain the Ministry of Bro. Pradeep Shinde</p>
             </div>
 
             {donationSuccess ? (
