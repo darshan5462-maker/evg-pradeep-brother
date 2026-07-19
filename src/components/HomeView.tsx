@@ -246,7 +246,7 @@ export default function HomeView({ onNavigate, sermons, events, onPlaySermon, on
               Spiritual Counsel & Media Streams
             </h2>
             <p className="font-body text-sm text-on-surface-variant mt-2 max-w-2xl">
-              We are dedicated to supporting your spiritual walk. Reach out directly to Evangelist Pradeep Shinde for guidance, or follow our global community across channels.
+              We are dedicated to supporting your spiritual walk. Reach out directly to Bro Pradeep Shinde for guidance, or follow our global community across channels.
             </p>
           </div>
 
