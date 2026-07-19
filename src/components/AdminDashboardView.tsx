@@ -108,7 +108,7 @@ export default function AdminDashboardView({
     title: '',
     summary: '',
     content: '',
-    author: 'Evangelist Pradeep Shinde',
+    author: 'Bro. Pradeep Shinde',
     category: 'Devotional' as BlogPost['category'],
     readTime: '5 min read',
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB58HYK5MeZb_Ps2NVHScusVawOwPfvNQImbtvf5uN26n-8RvRft67jn--21cVucJg28waHcqkAVN980ltdsvygTZoIfzUPPJRUaCu4vo1BNf2800PGAFBzRuBqJCGXj-wUk1hWIPSChGfFYA6XkAlXoYg7veZ8z-r0EqzYdgeSclybX7-Z7C7fFLUCDYCdVMTck3sE4_tUqWw-B-8csZsAJfYBM0gBrQcUT64TjHWWMc_7gMemBdVJ6w'
@@ -127,7 +127,7 @@ export default function AdminDashboardView({
 
   // Site general settings state
   const [siteSettings, setSiteSettings] = useState({
-    ministryName: 'Evangelist Pradeep Shinde Ministry',
+    ministryName: 'Bro. Pradeep Shinde Ministry',
     leadEmail: 'contact@pradeepshindeministry.org',
     primaryLanguage: 'English',
     enableOnlineDonations: true,
@@ -165,7 +165,7 @@ export default function AdminDashboardView({
       if (docSnap.exists()) {
         const data = docSnap.data();
         setSiteSettings({
-          ministryName: data.ministryName || 'Evangelist Pradeep Shinde Ministry',
+          ministryName: data.ministryName || 'Bro. Pradeep Shinde Ministry',
           leadEmail: data.leadEmail || 'contact@pradeepshindeministry.org',
           primaryLanguage: data.primaryLanguage || 'English',
           enableOnlineDonations: data.enableOnlineDonations !== false,
@@ -337,7 +337,7 @@ export default function AdminDashboardView({
       title: '',
       summary: '',
       content: '',
-      author: 'Evangelist Pradeep Shinde',
+      author: 'Bro. Pradeep Shinde',
       category: 'Devotional',
       readTime: '5 min read',
       imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuB58HYK5MeZb_Ps2NVHScusVawOwPfvNQImbtvf5uN26n-8RvRft67jn--21cVucJg28waHcqkAVN980ltdsvygTZoIfzUPPJRUaCu4vo1BNf2800PGAFBzRuBqJCGXj-wUk1hWIPSChGfFYA6XkAlXoYg7veZ8z-r0EqzYdgeSclybX7-Z7C7fFLUCDYCdVMTck3sE4_tUqWw-B-8csZsAJfYBM0gBrQcUT64TjHWWMc_7gMemBdVJ6w'
@@ -1149,7 +1149,7 @@ export default function AdminDashboardView({
                       value={credentialsForm.username}
                       onChange={(e) => setCredentialsForm({...credentialsForm, username: e.target.value})}
                       className="w-full bg-surface-container border border-outline-variant/50 rounded-lg p-3 text-sm focus:outline-secondary outline-none text-on-surface font-mono"
-                      placeholder="e.g. evangelist_pradeep"
+                      placeholder="e.g. bro_pradeep"
                       required 
                     />
                   </div>
