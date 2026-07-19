@@ -12,7 +12,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           onClick={() => onNavigate('home')}
           className="font-headline text-xl md:text-2xl text-secondary font-bold cursor-pointer hover:opacity-85 transition-opacity"
         >
-          Evangelist Pradeep Shinde
+          Bro Pradeep Shinde
         </h2>
         
         {/* Social Links */}
